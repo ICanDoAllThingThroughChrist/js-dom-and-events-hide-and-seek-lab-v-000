@@ -5,7 +5,8 @@ function getFirstSelector(selector) {
 }
 
 function nestedTarget() {
-  return document.querySelector( '#nested .target' )
+  debugger;
+  return document.querySelector( '#nested .target' )//parameters of querySelector are #id, and .class
   debugger;
 }
 
